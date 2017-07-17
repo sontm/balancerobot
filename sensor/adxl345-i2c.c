@@ -115,9 +115,9 @@ int adxl345_i2c_getdata(int* x, int* y, int *z)
 		return 6;
 	}
 
-	x = (int)(x2 << 8) + (int)x1;
-	y = (int)(y2 << 8) + (int)y1;
-	z = (int)(z2 << 8) + (int)z1;
+	*x = (int)(x2 << 8) + (int)x1;
+	*y = (int)(y2 << 8) + (int)y1;
+	*z = (int)(z2 << 8) + (int)z1;
 	return 0;
 }
 
