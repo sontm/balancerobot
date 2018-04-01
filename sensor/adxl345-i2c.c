@@ -4,7 +4,7 @@
 // This code is designed to work with the ADXL345_I2CS I2C Mini Module available from ControlEverything.com.
 // https://www.controleverything.com/content/Accelorometer?sku=ADXL345_I2CS#tabs-0-product_tabset-2
 
-
+// test changes windows svn
 
 // ADXL345 Module                     Raspberry Pi
 //GND  --------------------------   GND
@@ -19,7 +19,7 @@
 #include <linux/i2c-dev.h>
 #include <sys/ioctl.h>
 #include <fcntl.h>
-#include <fcntl.h> // this code is for another import
+// #include <fcntl.h> edit3
 
 int gFile;
 int adxl345_i2c_init()
