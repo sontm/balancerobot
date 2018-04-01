@@ -19,6 +19,7 @@
 #include <linux/i2c-dev.h>
 #include <sys/ioctl.h>
 #include <fcntl.h>
+// #include <fcntl.h> edit3
 
 int gFile;
 int adxl345_i2c_init()
